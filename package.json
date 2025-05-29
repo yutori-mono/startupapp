@@ -1,10 +1,6 @@
 {
-    "homepage": "http://yutori-mono.github.io/startupapp",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/yutori-mono/startupapp.git"
-    },
-    "name": "startupapp",
+    "homepage": "http://yutori-mono.github.io/ym-portfolio/",
+    "name": "portfolio",
     "private": true,
     "version": "0.0.0",
     "type": "module",
