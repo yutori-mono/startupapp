@@ -43,8 +43,7 @@ const Hero = () => {
 
     {/* Hero Image */}
 
-    <Spline className='absolute lg:top-0 top-[-20%] bottom-0 lg:left-[25%] sm:left-[-2%] h-full' scene="https://prod.spline.design/jZ8H3kJcTEjqCrJs/scene.splinecode" />
-
+    <Spline className='absolute lg:top-0 top-[-20%] bottom-0 lg:left-[25%] sm:left-[-2%] h-full' scene="https://prod.spline.design/Bgec0EpIc9sCyWez/scene.splinecode" />
 
     </main>
   )
