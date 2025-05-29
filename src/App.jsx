@@ -1,11 +1,12 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
+import gradient from './assets/gradient.png';
 
 export default function App() {
   return (
     <main>
       {/* Gradient image */}
-      <img className="absolute top-0 right-0 opacity-60 -z-1" src="gradient.png" alt="Gradient-img"/>
+      <img className="absolute top-0 right-0 opacity-60 -z-1" src={gradient} alt="Gradient-img"/>
 
       {/* Blue Effect */}
       <div className="h-0 w-[40rem] absolute top-[20%] right-[-5%] shadow-[0_0_900px_20px_#008080] -rotate-[30deg] -z-10"></div>
