@@ -59,9 +59,6 @@ const Header = () => {
 
         <div id='mobileMenu' className='hidden fixed top-16 bottom-0 left-0 right-0 p-5 md:hidden z-40 bg-black bg-opacity-70 backdrop-blur-md'>
             <nav className='flex flex-col items-center gap-6'>
-                <a className="text-base tracking-wider transitions-colors hover:text-teal-500 z-50" href="#about">
-                    ABOUT
-                </a>
                 
                 <a className="text-base tracking-wider transitions-colors hover:text-teal-500 z-50" href="#projects">
                     PROJECTS
