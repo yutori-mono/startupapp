@@ -24,9 +24,6 @@ const Header = () => {
         {/* Desktop Navigation */}
 
         <nav className="hidden md:flex items-center gap-12">
-            <a className="text-base tracking-wider transitions-colors hover:text-gray-300 z-50" href="#about">
-                ABOUT
-            </a>
             
             <a className="text-base tracking-wider transitions-colors hover:text-gray-300 z-50" href="#projects">
                 PROJECTS
