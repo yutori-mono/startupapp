@@ -6,7 +6,9 @@ const Hero = () => {
   return (
     <main className="flex lg:mt-20 justify-between min-h-[calc(90vh-6rem)] items-center flex-col lg:flex-row">
 
-    <div className="max-w-xl ml-[5%] z-10 mt-[90%] md:mt-[60%] lg:mt-0">
+    <div data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine" className="max-w-xl ml-[5%] z-10 mt-[90%] md:mt-[60%] lg:mt-0">
         {/* Tag box with gradient border */}
 
         <div className="relative w-[95%] sm:w-48 h-10 bg-gradient-to-r from-[#008080] to-[#00b3b3] shadow-[0_0_15px_rgba(255,255,255,0.4)] rounded-full flex items-center justify-center text-black font-semibold text-sm md:text-base tracking-wider">
@@ -35,7 +37,7 @@ const Hero = () => {
                 Git <i class='bx bx-link-alt'></i>
             </a>
 
-            <a className='border border-[#2a2a2a] py-2 sm:py-3 px-8 sm:px-10 rounded-full sm:text-lg text-sm font-semibold tracking-wider transition-all duration-300 hover:bg-[#85817d] bg-gray-300 text-black hover:text-white' href="#">
+            <a className='border border-[#2a2a2a] py-2 sm:py-3 px-8 sm:px-10 rounded-full sm:text-lg text-sm font-semibold tracking-wider transition-all duration-300 hover:bg-[#85817d] bg-gray-300 text-black hover:text-white' href="#get-started">
                 Get Started <i class='bx bx-link-alt'></i>
             </a>
          </div>
@@ -43,7 +45,12 @@ const Hero = () => {
 
     {/* Hero Image */}
 
-    <Spline className='absolute lg:top-0 top-[-20%] bottom-0 lg:left-[25%] sm:left-[-2%] h-full' scene="https://prod.spline.design/Bgec0EpIc9sCyWez/scene.splinecode" />
+    <Spline data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0" 
+            data-aos-duration="1800" 
+            className='absolute lg:top-0 top-[-20%] bottom-0 lg:left-[25%] sm:left-[-2%] h-full' scene="https://prod.spline.design/Bgec0EpIc9sCyWez/scene.splinecode" />
 
     </main>
   )

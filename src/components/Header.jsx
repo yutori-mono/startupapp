@@ -16,7 +16,9 @@ const Header = () => {
 
   return (
     <header className="flex justify-between items-center py-4 px-4 lg:px-20">
-        <a className="text-3xl md:text-4xl lg:text-5xl font-light m-0" href="#home">
+        <a data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500" className="text-3xl md:text-4xl lg:text-5xl font-light m-0" href="#home">
             {/* Logo */}
             Y-M
         </a>
@@ -25,22 +27,32 @@ const Header = () => {
 
         <nav className="hidden md:flex items-center gap-12">
             
-            <a className="text-base tracking-wider transitions-colors hover:text-gray-300 z-50" href="#projects">
+            <a data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1000" className="text-base tracking-wider transitions-colors hover:text-gray-300 z-50" href="#projects">
                 PROJECTS
             </a>
 
-            <a className="text-base tracking-wider transitions-colors hover:text-gray-300 z-50" href="#contact">
+            <a data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500" className="text-base tracking-wider transitions-colors hover:text-gray-300 z-50" href="#contact">
                 CONTACT
             </a>
 
-            <a className="text-base tracking-wider transitions-colors hover:text-gray-300 z-50" href="#media">
+            <a data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="2000" className="text-base tracking-wider transitions-colors hover:text-gray-300 z-50" href="#media">
                 MEDIA
             </a>
             
         </nav>
 
         {/* Registration Buttons */}
-        <div className="hidden md:flex gap-6">
+        <div data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="2000"
+            className="hidden md:flex gap-6">
           <button className="bg-[#008080] text-white py-3 px-8 rounded-full border-none font-medium transitions-all duration-500 hover:bg-[#004d4d] cursor-pointer z-50">
             SIGN IN
           </button>
