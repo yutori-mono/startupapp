@@ -1,8 +1,8 @@
 # My portfolio
 
-https://yutori-mono.github.io/startupapp/
-
+(My first variant of Potfolio)
 There will be more projects and stuff here in the future.
+https://yutori-mono.github.io/startupapp/
 
 ## React + Vite
 
